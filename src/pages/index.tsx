@@ -1,9 +1,16 @@
+import Home from '@/views/Home'
+import React from 'react'
 
+type Props = {}
 
-export default function Home() {
+const Index = (props: Props) => {
   return (
-    <div className="bg-red-200 h-screen w-screen"> 
+    <div>
+
+      <Home />
 
     </div>
   )
 }
+
+export default Index
