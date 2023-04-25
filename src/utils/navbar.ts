@@ -15,12 +15,18 @@ export const navbarOptions: NavbarOptions[] = [
     },
     {
         id: 3,
+        text: 'BRANDI TOOLE',
+        url: '/home',
+    },
+    {
+        id: 4,
         text: 'info',
         url: '/info',
     },
     {
-        id: 4,
+        id: 5,
         text: 'contact',
         url: '/contact',
     },
+    
 ]

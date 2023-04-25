@@ -10,10 +10,9 @@ interface Props {
 }
 
 const Layout = ({ children }: Props) => {
-
     return (
         <>
-            <div>
+            <div >
                 <Header />
                 <div style={{ height: "calc(100vh - 346px)" }}>{children}</div>
                 <Footer />
