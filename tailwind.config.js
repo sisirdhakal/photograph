@@ -39,6 +39,9 @@ module.exports = {
         clrgreenlight: "#6be675",
         clrblack: "#222"
       },
+      gridTemplateColumns: {
+        aboutSection: "342px 1fr"
+      }
     }
   },
   plugins: [],
