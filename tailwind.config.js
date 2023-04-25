@@ -7,6 +7,23 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens: {
+      // 'sm': '576px',
+      // // => @media (min-width: 576px) { ... }
+
+      'md': '800px',
+      // => @media (min-width: 960px) { ... }
+
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
     extend: {
       colors: {
         clrprimary1: "#453227",
@@ -41,7 +58,10 @@ module.exports = {
       },
       gridTemplateColumns: {
         aboutSection: "342px 1fr",
-        auto:'auto 1fr auto'
+        auto: 'auto 1fr auto'
+      },
+      maxWidth: {
+        "navbar": "1200px"
       }
     }
   },

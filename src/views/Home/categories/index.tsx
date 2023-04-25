@@ -5,10 +5,10 @@ type Props = {}
 
 const Categories = (props: Props) => {
     return (
-        <div className='px-16 py-10'>
-            <div className='grid grid-cols-3 justify-items-center'>
+        <div className='md:px-8 lg:px-16 py-10'>
+            <div className='grid md:grid-cols-3 gap-6 lg:px-8'>
                 <div>
-                    <div className='relative  w-[342px]  h-[478px]'>
+                    <div className='relative w-[100%] md:max-w-[342px]  h-[478px]'>
                         <Image
                             alt=''
                             fill={true}
@@ -23,7 +23,7 @@ const Categories = (props: Props) => {
                     <h1 className='text mt-3 text-clrgrey3 text-center tracking-wider font-serif uppercase'>Engagements</h1>
                 </div>
                 <div>
-                    <div className='relative  w-[342px]  h-[478px]'>
+                    <div className='relative w-[100%] md:max-w-[342px]  h-[478px]'>
                         <Image
                             alt=''
                             fill={true}
@@ -38,7 +38,7 @@ const Categories = (props: Props) => {
                     <h1 className='text mt-3 text-clrgrey3 text-center tracking-wider font-serif uppercase'>Weddings</h1>
                 </div>
                 <div>
-                    <div className='relative  w-[342px]  h-[478px]'>
+                    <div className='relative w-[100%]  md:max-w-[342px]  h-[478px]'>
                         <Image
                             alt=''
                             fill={true}

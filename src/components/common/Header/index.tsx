@@ -8,7 +8,7 @@ type Props = {}
 const Header = (props: Props) => {
   return (
     <div>
-      <div className='hidden lg:flex py-[30px] px-[72px] items-center justify-center'>
+      <div className='hidden lg:flex py-[30px] px-[72px] mx-auto items-center justify-center'>
         <ul className='flex w-full items-center justify-between'>
           {navbarOptions.map((link: NavbarOptions) => {
             const { id, text, url } = link
