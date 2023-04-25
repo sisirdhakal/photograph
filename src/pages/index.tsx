@@ -7,7 +7,6 @@ const Index = (props: Props) => {
   return (
     <div>
       <Home />
-
     </div>
   )
 }
