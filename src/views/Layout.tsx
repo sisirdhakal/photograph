@@ -14,7 +14,7 @@ const Layout = ({ children }: Props) => {
         <>
             <div >
                 <Header />
-                <div style={{ height: "calc(100vh - 346px)" }}>{children}</div>
+                <div >{children}</div>
                 <Footer />
             </div>
         </>

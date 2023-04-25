@@ -8,7 +8,7 @@ type Props = {}
 const Header = (props: Props) => {
   return (
     <div>
-      <div className='hidden lg:flex py-5 px-12 items-center justify-center'>
+      <div className='hidden lg:flex py-[30px] px-[72px] items-center justify-center'>
         <ul className='flex w-full items-center justify-between'>
           {navbarOptions.map((link: NavbarOptions) => {
             const { id, text, url } = link
@@ -24,7 +24,7 @@ const Header = (props: Props) => {
             return (
               <li key={id} className="mx-4 px-2 relative">
                 <Link href={url}>
-                  <p className='uppercase font-sans text-[0.6rem] tracking-wider text-clrgrey3'>
+                  <p className='uppercase font-sans text-[0.6rem] tracking-[0.10rem] text-clrgrey3'>
                     {text}
                   </p>
                 </Link>
