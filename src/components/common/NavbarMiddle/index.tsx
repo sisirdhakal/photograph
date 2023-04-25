@@ -7,7 +7,7 @@ type Props = {}
 
 const NavbarMiddle = (props: Props) => {
     return (
-        <div className='bg-[#F4F1EC] my-5'>
+        <div className='bg-[#F4F1EC] mt-5'>
             <div className='hidden lg:flex py-[24px] px-[320px] items-center justify-center'>
                 <ul className='flex w-full items-center justify-between'>
                     {navbarBottomOptions.map((link: NavbarOptions) => {
