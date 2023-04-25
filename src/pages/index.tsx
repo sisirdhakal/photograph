@@ -6,7 +6,6 @@ type Props = {}
 const Index = (props: Props) => {
   return (
     <div>
-
       <Home />
 
     </div>
