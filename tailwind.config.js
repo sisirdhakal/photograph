@@ -40,7 +40,8 @@ module.exports = {
         clrblack: "#222"
       },
       gridTemplateColumns: {
-        aboutSection: "342px 1fr"
+        aboutSection: "342px 1fr",
+        auto:'auto 1fr auto'
       }
     }
   },

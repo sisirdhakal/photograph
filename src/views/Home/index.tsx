@@ -4,6 +4,8 @@ import Details from './details'
 import AboutSection from './aboutsection'
 import Categories from './categories'
 import Infos from './infos'
+import Bookings from './bookings'
+import NavbarMiddle from '@/components/common/NavbarMiddle'
 
 type Props = {}
 
@@ -15,6 +17,8 @@ const Home = (props: Props) => {
             <AboutSection />
             <Categories />
             <Infos />
+            <Bookings />
+            <NavbarMiddle />
         </div>
     )
 }
