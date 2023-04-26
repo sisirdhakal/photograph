@@ -9,7 +9,6 @@ function Footer({ }: Props) {
             <div className='lg:flex justify-between items-center py-5 lg:px-24'>
                 <div className="w-[200px] mx-auto lg:w-full">
                     <h5 className='text-[#454543] text-xs flex items-center'>
-                        {/* <AiOutlineCopyrightCircle className="text-white/80" /> */}
                         <span className='text-center'>COPYRIGHTS ©BRANDI TOOLE PHOTOGRAPHY {new Date().getFullYear()}</span>
                     </h5>
                 </div>
