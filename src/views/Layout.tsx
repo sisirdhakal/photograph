@@ -12,7 +12,7 @@ interface Props {
 const Layout = ({ children }: Props) => {
     return (
         <>
-            <div className='w-screen'>
+            <div className=''>
                 <Header />
                 <div className=''>{children}</div>
                 <Footer />

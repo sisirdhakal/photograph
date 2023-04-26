@@ -11,12 +11,12 @@ type Props = {}
 
 const Home = (props: Props) => {
     return (
-        <div className='w-full'>
+        <div className=''>
             <Background />
             <Details />
-            {/* <AboutSection /> */}
-            {/* <Categories /> */}
-            {/* <Infos /> */}
+            <AboutSection />
+            <Categories />
+            <Infos />
             {/* <Bookings /> */}
             {/* <NavbarMiddle /> */}
         </div>
