@@ -33,6 +33,13 @@ const Header = (props: Props) => {
           })}
         </ul>
       </div>
+      <div className='md:hidden py-4 px-9 mx-auto items-center justify-center'>
+        <Link href={'/home'}>
+          <p className='capitalize text-3xl tracking-wide text-clrgrey2'>
+            BRANDI TOOLE
+          </p>
+        </Link>
+      </div>
     </div>
   )
 }

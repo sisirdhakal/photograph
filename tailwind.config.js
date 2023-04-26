@@ -8,8 +8,9 @@ module.exports = {
   ],
   theme: {
     screens: {
-      // 'sm': '576px',
-      // // => @media (min-width: 576px) { ... }
+      'sm': '576px',
+      // => @media (min-width: 576px) { ... }
+      'sm_1': '640px',
 
       'md': '800px',
       // => @media (min-width: 960px) { ... }

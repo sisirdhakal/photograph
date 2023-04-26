@@ -11,14 +11,14 @@ type Props = {}
 
 const Home = (props: Props) => {
     return (
-        <div className=''>
+        <div className='w-full'>
             <Background />
-            <Details />
+            {/* <Details />
             <AboutSection />
             <Categories />
             <Infos />
             <Bookings />
-            <NavbarMiddle />
+            <NavbarMiddle /> */}
         </div>
     )
 }
