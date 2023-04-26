@@ -13,12 +13,12 @@ const Home = (props: Props) => {
     return (
         <div className='w-full'>
             <Background />
-            {/* <Details />
-            <AboutSection />
-            <Categories />
-            <Infos />
-            <Bookings />
-            <NavbarMiddle /> */}
+            <Details />
+            {/* <AboutSection /> */}
+            {/* <Categories /> */}
+            {/* <Infos /> */}
+            {/* <Bookings /> */}
+            {/* <NavbarMiddle /> */}
         </div>
     )
 }
