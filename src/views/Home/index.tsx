@@ -17,8 +17,8 @@ const Home = (props: Props) => {
             <AboutSection />
             <Categories />
             <Infos />
-            {/* <Bookings /> */}
-            {/* <NavbarMiddle /> */}
+            <Bookings />
+            <NavbarMiddle />
         </div>
     )
 }

@@ -5,10 +5,10 @@ type Props = {}
 
 const Bookings = (props: Props) => {
     return (
-        <div className='px-24 py-5 '>
+        <div className='px-16 max-w-[440px] lg:max-w-none mx-auto lg:px-24 py-5 '>
             <div className='border-t-2 border-clrgrey3 '>
-                <div className='grid grid-cols-auto gap-14 items-center py-3 border-b-2 border-clrgrey8'>
-                    <div className='relative  w-[202px]  h-[134px]'>
+                <div className='grid lg:grid-cols-auto lg:gap-14 items-center py-3 border-b-2 border-clrgrey8'>
+                    <div className='relative mx-auto w-[202px]  h-[134px]'>
                         <Image
                             alt=''
                             fill={true}
@@ -20,7 +20,7 @@ const Bookings = (props: Props) => {
                                     100vw"
                         />
                     </div>
-                    <div className='border-x py-10 border-clrgrey6'>
+                    <div className='border-y lg:border-y-0 lg:border-x my-5 lg:my-0 py-5 lg:py-10 border-clrgrey6'>
                         <p className='text-3xl text-center text-[#454543] '>Atlanta Based Wedding & <br /> Family Photographer</p>
                         <p className='text-sm text-[#454543] mt-4 text-center'>Currently booking for 2023 & 2024</p>
                     </div>
