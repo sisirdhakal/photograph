@@ -13,6 +13,7 @@ const Bookings = (props: Props) => {
                             alt=''
                             fill={true}
                             priority
+                            unoptimized
                             className='object-fit'
                             src={"/images/book.jpg"}
                             sizes="(min-width: 60em) 24vw,

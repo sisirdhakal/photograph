@@ -10,6 +10,7 @@ const BgChildren = (props: Props) => {
                 alt=''
                 fill={true}
                 priority
+                unoptimized
                 className='object-cover'
                 src={"/images/marriage.jpg"}
                 sizes="(min-width: 60em) 24vw,

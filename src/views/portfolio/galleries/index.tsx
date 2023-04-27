@@ -13,7 +13,7 @@ const Gallery = (props: Props) => {
                 <div className='grid md:grid-cols-3 gap-6 items-center  md:px-4 lg:px-8'>
                     <div>
                         <div className='relative w-[80%] h-[400px] md:w-[100%] md:max-w-[296.66px]  mx-auto md:h-[209.77px]'>
-                            <Image
+                            <Image 
                                 alt=''
                                 fill={true}
                                 priority
@@ -22,6 +22,7 @@ const Gallery = (props: Props) => {
                                 sizes="(min-width: 60em) 24vw,
                                     (min-width: 28em) 45vw,
                                     100vw"
+                                unoptimized
                             />
                         </div>
                         <p className='text-[9.6px] mt-3 text-[#878787] text-center tracking-wider font-serif uppercase'>Weddings</p>
@@ -30,7 +31,7 @@ const Gallery = (props: Props) => {
                     </div>
                     <div>
                         <div className='relative w-[80%] h-[400px] md:w-[100%] md:max-w-[356px] mx-auto md:h-[260px]'>
-                            <Image
+                            <Image 
                                 alt=''
                                 fill={true}
                                 priority
@@ -39,6 +40,7 @@ const Gallery = (props: Props) => {
                                 sizes="(min-width: 60em) 24vw,
                                     (min-width: 28em) 45vw,
                                     100vw"
+                                unoptimized
                             />
                         </div>
                         <p className='text-[9.6px] mt-3 text-[#878787] text-center tracking-wider font-serif uppercase'>Weddings</p>
@@ -47,7 +49,7 @@ const Gallery = (props: Props) => {
                     </div>
                     <div>
                         <div className='relative w-[80%] h-[400px]  md:w-[100%] md:max-w-[296.66px]  mx-auto md:h-[209.77px]'>
-                            <Image
+                            <Image 
                                 alt=''
                                 fill={true}
                                 priority
@@ -56,6 +58,7 @@ const Gallery = (props: Props) => {
                                 sizes="(min-width: 60em) 24vw,
                                     (min-width: 28em) 45vw,
                                     100vw"
+                                unoptimized
                             />
                         </div>
                         <p className='text-[9.6px] mt-3 text-[#878787] text-center tracking-wider font-serif uppercase'>Weddings</p>

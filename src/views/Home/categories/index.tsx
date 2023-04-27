@@ -18,6 +18,7 @@ const Categories = (props: Props) => {
                             sizes="(min-width: 60em) 24vw,
                                     (min-width: 28em) 45vw,
                                     100vw"
+                            unoptimized
                         />
                     </div>
                     <h1 className='text mt-3 text-clrgrey3 text-center tracking-wider font-serif uppercase'>Engagements</h1>
@@ -33,6 +34,7 @@ const Categories = (props: Props) => {
                             sizes="(min-width: 60em) 24vw,
                                     (min-width: 28em) 45vw,
                                     100vw"
+                            unoptimized
                         />
                     </div>
                     <h1 className='text mt-3 text-clrgrey3 text-center tracking-wider font-serif uppercase'>Weddings</h1>
@@ -48,6 +50,7 @@ const Categories = (props: Props) => {
                             sizes="(min-width: 60em) 24vw,
                                     (min-width: 28em) 45vw,
                                     100vw"
+                            unoptimized
                         />
                     </div>
                     <h1 className='text mt-3 text-clrgrey3 text-center tracking-wider font-serif uppercase'>Life Style</h1>

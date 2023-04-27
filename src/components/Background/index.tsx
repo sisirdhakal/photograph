@@ -17,8 +17,9 @@ function Background({ bgImageSrc, portfolio, bgChildren }: Props) {
                     alt=''
                     fill={true}
                     priority
-                    className='object-cover'
+                    className={`object-cover ${portfolio ? 'opacity-80' : ""}`}
                     src={bgImageSrc}
+                    unoptimized
                     sizes="(min-width: 60em) 24vw,
                                     (min-width: 28em) 45vw,
                                     100vw"
