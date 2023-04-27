@@ -12,10 +12,10 @@ const poppins = Poppins({
 
 function MyApp({ Component, pageProps }: AppProps) {
 
-  console.log(poppins.style)
+  // console.log(poppins.style)
 
   return <>
-    <div className={poppins.className} >
+    <div >
       <Layout>
         <Component {...pageProps} />
       </Layout>

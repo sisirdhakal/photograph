@@ -2,10 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
     font-family: '__Poppins_Fallback', sans-serif !important;
     font-style: normal;
-}
+} */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/src/common/fonts/Poppins-Italic.ttf'),
+         /* url('/fonts/poppins-regular.woff') format('woff'); */
+  }
+  
+  /* @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/poppins-semibold.woff2') format('woff2'),
+         url('/fonts/poppins-semibold.woff') format('woff');
+  } */
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
 
 ::-webkit-scrollbar {
     width: 8px;
