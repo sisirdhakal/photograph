@@ -15,7 +15,7 @@ const Header = (props: Props) => {
             if (id == 3) {
               return <li key={id} className="mx-4 px-2 relative">
                 <Link href={url}>
-                  <p className='capitalize text-3xl tracking-wide text-clrgrey2'>
+                  <p className='capitalize text-3xl tracking-wide text-clrgrey2 font-serif'>
                     {text}
                   </p>
                 </Link>
@@ -35,7 +35,7 @@ const Header = (props: Props) => {
       </div>
       <div className='md:hidden py-4 px-9 mx-auto items-center justify-center'>
         <Link href={'/home'}>
-          <p className='capitalize text-3xl tracking-wide text-clrgrey2'>
+          <p className='capitalize text-3xl tracking-wide text-clrgrey2 font-serif'>
             BRANDI TOOLE
           </p>
         </Link>

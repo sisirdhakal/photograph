@@ -1,12 +1,13 @@
 import Background from '@/components/Background'
 import React from 'react'
+import BgChildren from './bgChildren'
 
 type Props = {}
 
 const Portfolio = (props: Props) => {
     return (
         <div>
-            <Background bgImageSrc='/images/pbg2.jpg' portfolio={true} />
+            <Background bgImageSrc='/images/pbg.jpg' portfolio={true} bgChildren={<BgChildren />} />
         </div>
     )
 }
