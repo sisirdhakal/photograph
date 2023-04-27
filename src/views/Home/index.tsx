@@ -6,13 +6,14 @@ import Categories from './categories'
 import Infos from './infos'
 import Bookings from './bookings'
 import NavbarMiddle from '@/components/common/NavbarMiddle'
+import BgChildren from './bgChildren'
 
 type Props = {}
 
 const Home = (props: Props) => {
     return (
         <div className=''>
-            <Background />
+            <Background bgImageSrc="/images/test.jpg" bgChildren={<BgChildren />} />
             <Details />
             <AboutSection />
             <Categories />

@@ -6,7 +6,7 @@ export const navbarOptions: NavbarOptions[] = [
     {
         id: 1,
         text: 'home',
-        url: '/home',
+        url: '/',
     },
     {
         id: 2,
@@ -16,7 +16,7 @@ export const navbarOptions: NavbarOptions[] = [
     {
         id: 3,
         text: 'BRANDI TOOLE',
-        url: '/home',
+        url: '/',
     },
     {
         id: 4,
@@ -34,7 +34,7 @@ export const navbarBottomOptions: NavbarOptions[] = [
     {
         id: 1,
         text: 'home',
-        url: '/home',
+        url: '/',
     },
     {
         id: 2,
@@ -44,7 +44,7 @@ export const navbarBottomOptions: NavbarOptions[] = [
     {
         id: 3,
         text: 'BT',
-        url: '/home',
+        url: '/',
     },
     {
         id: 4,
