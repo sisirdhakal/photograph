@@ -12,7 +12,7 @@ function Background({ bgImageSrc, portfolio, bgChildren }: Props) {
         <div className='relative flex justify-center items-center'>
 
             {bgChildren}
-            <div className={`relative w-full ${portfolio ? 'h-[360px]' : 'h-[900px]'} md:h-[900px] `}>
+            <div className={`relative w-full ${portfolio ? 'h-[360px] md:h-[600px]' : 'h-[900px]'}  `}>
                 <Image
                     alt=''
                     fill={true}

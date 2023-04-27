@@ -7,7 +7,7 @@ type Props = {}
 const Portfolio = (props: Props) => {
     return (
         <div>
-            <Background bgImageSrc='/images/pbg.jpg' portfolio={true} bgChildren={<BgChildren />} />
+            <Background bgImageSrc='/images/pbg1.jpg' portfolio={true} bgChildren={<BgChildren />} />
         </div>
     )
 }
