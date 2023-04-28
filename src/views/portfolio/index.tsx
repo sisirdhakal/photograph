@@ -4,6 +4,7 @@ import BgChildren from './bgChildren'
 import Gallery from './galleries'
 import NavbarMiddle from '@/components/common/NavbarMiddle'
 import Bottom from './bottom'
+import ImageSlider from './imageSlider'
 
 type Props = {}
 
@@ -15,6 +16,10 @@ const Portfolio = (props: Props) => {
                 <Background bgImageSrc='/images/pbg1.jpg' portfolio={true} bgChildren={<BgChildren />} />
             </div>
             <Gallery />
+            <div className='py-4'>
+                <ImageSlider />
+
+            </div>
             <Bottom />
             <NavbarMiddle />
         </div>
