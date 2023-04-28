@@ -1,10 +1,13 @@
 import React from 'react'
+import TopContainer from './topContainer'
 
 type Props = {}
 
 const About = (props: Props) => {
     return (
-        <div>About</div>
+        <div>
+            <TopContainer />
+        </div>
     )
 }
 
