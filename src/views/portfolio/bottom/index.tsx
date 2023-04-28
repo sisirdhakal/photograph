@@ -14,6 +14,11 @@ const Bottom = (props: Props) => {
                     </p>
 
                 </div>
+                <div className='absolute w-full z-20 bottom-24'>
+                    <button className='bg-[#b9b1a7] mt-8 py-3 text-sm w-48 px-6 lg:px-10 text-white block mx-auto rounded-xs transition-all ease-linear duration-300 hover:text-clrgrey3 font-light'>
+                        Lets Chat
+                    </button>
+                </div>
                 <div className={`relative w-full h-[500px] bg-black `}>
                     <Image
                         alt=''
