@@ -14,10 +14,13 @@ const Header = (props: Props) => {
   const handleMouseLeave = (e: React.MouseEvent) => {
     setclasses('hidden')
   }
+  const toggleNavbar = () => {
+
+  }
 
   return (
     <div>
-      <div className='hidden lg:flex  px-[72px] mx-auto items-center justify-center'>
+      <div className='hidden md:flex  px-[72px] mx-auto items-center justify-center'>
         <ul className='flex w-full items-center justify-between'>
           {navbarOptions.map((link: NavbarOptions) => {
             const { id, text, url } = link
@@ -71,13 +74,24 @@ const Header = (props: Props) => {
           })}
         </ul>
       </div>
-      <div className='md:hidden py-4 px-9 mx-auto items-center justify-center'>
-        <Link href={'/home'}>
-          <p className='capitalize text-3xl tracking-wide text-clrgrey2 font-serif'>
-            BRANDI TOOLE
-          </p>
-        </Link>
+      <div className='md:hidden py-4 px-9 flex justify-between items-center'>
+        <div className=''>
+
+          <Link href={'/home'}>
+            <p className='capitalize text-3xl tracking-wide text-clrgrey2 font-serif'>
+              BRANDI TOOLE
+            </p>
+          </Link>
+        </div>
+        <div className='w-9 h-10 flex justify-center items-center cursor-pointer'>
+          <div className='relative w-7 mb-3' onClick={toggleNavbar}>
+            <p className='w-7 absolute h-[2px] mt-[12px] bg-[#85857E]'></p>
+            <p className='w-6 absolute right-0 h-[2px] mt-[6px] bg-[#85857E]'></p>
+            <p className='w-7 absolute h-[2px]  bg-[#85857E]'></p>
+          </div>
+        </div>
       </div>
+
     </div>
   )
 }
