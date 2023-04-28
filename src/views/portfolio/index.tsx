@@ -13,7 +13,7 @@ const Portfolio = (props: Props) => {
         <div>
             <div className='bg-black'>
 
-                <Background bgImageSrc='/images/pbg1.jpg' portfolio={true} bgChildren={<BgChildren />} />
+                <Background bgImageSrc='/images/pbg1.jpg' portfolio={true} classString={'h-[360px] md:h-[600px]'} bgChildren={<BgChildren />} />
             </div>
             <Gallery />
             <div className='py-4'>

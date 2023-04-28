@@ -2,17 +2,18 @@ import Image from 'next/image'
 import React from 'react'
 
 type Props = {
-    bgImageSrc: string,
-    portfolio?: boolean,
+    bgImageSrc: string;
+    portfolio?: boolean;
     bgChildren?: React.ReactNode;
+    classString?: string
 }
 
-function Background({ bgImageSrc, portfolio, bgChildren }: Props) {
+function Background({ bgImageSrc, portfolio, bgChildren, classString }: Props) {
     return (
         <div className='relative flex justify-center items-center'>
 
             {bgChildren}
-            <div className={`relative w-full ${portfolio ? 'h-[360px] md:h-[600px]' : 'h-[900px]'}  `}>
+            <div className={`relative w-full  ${classString} `}>
                 <Image
                     alt=''
                     fill={true}

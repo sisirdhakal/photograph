@@ -13,7 +13,7 @@ type Props = {}
 const Home = (props: Props) => {
     return (
         <div className=''>
-            <Background bgImageSrc="/images/test.jpg" bgChildren={<BgChildren />} />
+            <Background bgImageSrc="/images/test.jpg" bgChildren={<BgChildren />} classString='h-[900px]' />
             <Details />
             <AboutSection />
             <Categories />
