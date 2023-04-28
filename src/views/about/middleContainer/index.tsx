@@ -4,7 +4,9 @@ type Props = {}
 
 const MiddleContainer = (props: Props) => {
     return (
-        <div>MiddleContainer</div>
+        <div>
+            
+        </div>
     )
 }
 
