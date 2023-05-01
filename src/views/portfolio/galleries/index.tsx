@@ -18,7 +18,7 @@ const Gallery = (props: Props) => {
                                 fill={true}
                                 priority
                                 className='object-cover'
-                                src={"/images/p1.jpg"}
+                                src={"/images/p1.webp"}
                                 sizes="(min-width: 60em) 24vw,
                                     (min-width: 28em) 45vw,
                                     100vw"
@@ -36,7 +36,7 @@ const Gallery = (props: Props) => {
                                 fill={true}
                                 priority
                                 className='object-cover'
-                                src={"/images/p2.jpg"}
+                                src={"/images/p2.webp"}
                                 sizes="(min-width: 60em) 24vw,
                                     (min-width: 28em) 45vw,
                                     100vw"
@@ -54,7 +54,7 @@ const Gallery = (props: Props) => {
                                 fill={true}
                                 priority
                                 className='object-cover'
-                                src={"/images/p3.jpg"}
+                                src={"/images/11.webp"}
                                 sizes="(min-width: 60em) 24vw,
                                     (min-width: 28em) 45vw,
                                     100vw"

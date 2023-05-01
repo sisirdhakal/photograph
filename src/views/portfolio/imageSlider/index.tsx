@@ -2,12 +2,12 @@ import React, { useState, useRef, useEffect } from "react";
 import Slider from "react-slick";
 
 const images = [
-    "/images/p1.jpg",
-    "/images/p2.jpg",
-    "/images/p3.jpg",
+    "/images/p1.webp",
+    "/images/p2.webp",
+    "/images/9.webp",
     "/images/c1.jpg",
-    "/images/c2.jpg",
-    "/images/c3.jpg",
+    "/images/c2.webp",
+    "/images/c3.webp",
 ];
 
 function PrevArrow(props: any) {

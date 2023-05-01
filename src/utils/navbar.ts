@@ -15,7 +15,7 @@ export const navbarOptions: NavbarOptions[] = [
     },
     {
         id: 3,
-        text: 'BRANDI TOOLE',
+        text: 'Aatriyashots',
         url: '/',
     },
     {
@@ -43,7 +43,7 @@ export const navbarBottomOptions: NavbarOptions[] = [
     },
     {
         id: 3,
-        text: 'BT',
+        text: 'AS',
         url: '/',
     },
     {

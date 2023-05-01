@@ -15,7 +15,7 @@ const Bookings = (props: Props) => {
                             priority
                             unoptimized
                             className='object-fit'
-                            src={"/images/book.jpg"}
+                            src={"/images/book.webp"}
                             sizes="(min-width: 60em) 24vw,
                                     (min-width: 28em) 45vw,
                                     100vw"

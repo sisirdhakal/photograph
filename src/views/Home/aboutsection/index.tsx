@@ -13,7 +13,7 @@ const AboutSection = (props: Props) => {
                         fill={true}
                         priority
                         className='object-cover'
-                        src={"/images/img1.jpg"}
+                        src={"/images/9.webp"}
                         sizes="(min-width: 60em) 24vw,
                                     (min-width: 28em) 45vw,
                                     100vw"

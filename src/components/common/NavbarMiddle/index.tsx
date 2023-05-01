@@ -11,7 +11,7 @@ const NavbarMiddle = (props: Props) => {
             <div className="flex justify-center items-center  lg:hidden px-2 relative">
                 <Link href={'/'}>
                     <p className='capitalize text-3xl tracking-wide text-clrgrey2'>
-                        BT
+                        AS
                     </p>
                 </Link>
             </div>

@@ -30,7 +30,7 @@ const Categories = (props: Props) => {
                             fill={true}
                             priority
                             className='object-cover'
-                            src={"/images/c2.jpg"}
+                            src={"/images/c2.webp"}
                             sizes="(min-width: 60em) 24vw,
                                     (min-width: 28em) 45vw,
                                     100vw"
@@ -46,7 +46,7 @@ const Categories = (props: Props) => {
                             fill={true}
                             priority
                             className='object-cover'
-                            src={"/images/c3.jpg"}
+                            src={"/images/c3.webp"}
                             sizes="(min-width: 60em) 24vw,
                                     (min-width: 28em) 45vw,
                                     100vw"
