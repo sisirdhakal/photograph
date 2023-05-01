@@ -5,14 +5,19 @@ import { BsArrowRight, BsArrowLeft } from 'react-icons/bs'
 type Props = {}
 
 const images = [
-    "/images/p1.jpg",
-    "/images/p2.jpg",
-    "/images/p3.jpg",
+    "/images/p1.webp",
+    "/images/p2.webp",
+    "/images/9.webp",
     "/images/c1.jpg",
-    "/images/c2.jpg",
-    "/images/c3.jpg",
-    "/images/img1.jpg",
-    "/images/marriage.jpg",
+    "/images/c2.webp",
+    "/images/c3.webp",
+    "/images/10.webp",
+    "/images/11.webp",
+    "/images/12.webp",
+    "/images/13.webp",
+    // "/images/14.webp",
+    // "/images/15.webp",
+    // "/images/16.webp",
 ];
 
 function PrevArrow(props: any) {
@@ -50,30 +55,30 @@ const ImageSlider = (props: Props) => {
         beforeChange: (current: number, next: number) => setCurrentSlide(next + 1),
         responsive: [
             {
-              breakpoint: 1024,
-              settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                dots: true
-              }
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
             },
             {
-              breakpoint: 600,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                initialSlide: 2
-              }
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2
+                }
             },
             {
-              breakpoint: 480,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-              }
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
             }
-          ]
+        ]
     };
     return (
         <div className='mb-20'>

@@ -15,7 +15,7 @@ const BgChildren = (props: Props) => {
                         Please fill out the form below with as many details as possible! I'll email you back within 48 hours with my availability and collection pricing!
                     </p>
                     <p className='text-center text-[14px] text-[#454543]'>
-                        info@branditoolephoto.com
+                        info@aatriyashorts.com
                     </p>
                 </div>
                 {/* <p className='text-[40px] md:text-[60px] lg:text-[85.375px] font-serif font-medium text-white tracking-wider text-center'>
