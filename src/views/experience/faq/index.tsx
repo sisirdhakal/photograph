@@ -36,7 +36,7 @@ const faqs: FAQS[] = [
 
 const FAQ = (props: Props) => {
     return (
-        <div className='pt-8 pb-24'>
+        <div className='pt-8 pb-16'>
             <h1 className='text-[#b9b1a7] text-center text-[40px] font-serif mb-12'>FAQ</h1>
             <div className='grid lg:grid-cols-2 justify-items-center w-[84%] gap-14 lg:gap-20 mx-auto'>
                 {
