@@ -13,7 +13,7 @@ const images = [
 function PrevArrow(props: any) {
     const { onClick } = props;
     return (
-        <div className="absolute -bottom-10 left-1/3 lg:top-[300px] md:left-1/4 z-10 cursor-pointer text-[#81817a] uppercase text-[12px] tracking-wide font-medium" onClick={onClick}>
+        <div className="absolute -bottom-10 left-1/3 lg:top-[300px] md:left-[29.5%] z-10 cursor-pointer text-[#81817a] uppercase text-[12px] tracking-wide font-medium" onClick={onClick}>
             Prev
         </div>
     );
@@ -22,7 +22,7 @@ function PrevArrow(props: any) {
 function NextArrow(props: any) {
     const { onClick } = props;
     return (
-        <div className="absolute -bottom-10 right-1/3 lg:top-[300px] md:right-[22%] lg:[20%] xl:right-1/4 z-10 cursor-pointer text-[#81817a] uppercase text-[12px] tracking-wide font-medium" onClick={onClick}>
+        <div className="absolute -bottom-10 right-1/3 lg:top-[300px] md:right-[22%] lg:[22%] xl:right-[30.5%] z-10 cursor-pointer text-[#81817a] uppercase text-[12px] tracking-wide font-medium" onClick={onClick}>
             Next
         </div>
     );
