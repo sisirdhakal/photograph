@@ -38,18 +38,6 @@ const ImageSlider = () => {
         setprevImage(currentSlide === 0 ? images.length - 1 : currentSlide - 1);
     }, [currentSlide])
 
-    const getFlexDirection = (index: number) => {
-        if (index === prevImage) {
-            return "justify-start -translate-x-8 xl:translate-x-0";
-        } else if (index === currentSlide) {
-            return "justify-center xl:translate-x-8";
-        } else if (index === nextImage) {
-            return "justify-end translate-x-[15%] 2xl:translate-x-[30%]";
-        } else {
-            return "";
-        }
-    }
-
     const settings = {
         dots: false,
         infinite: true,
@@ -88,7 +76,7 @@ const ImageSlider = () => {
                 <Slider {...settings}>
                     {images.map((image, index) => (
                         <div className={`${index === currentSlide ? 'slide slide-active ' : 'slide'} transition-all duration-500 ease-in-out h-full`} key={index}>
-                            <div className={`w-[400px] flex ${getFlexDirection(index)} items-center h-[580px]`}>
+                            <div className={`w-[400px] flex justify-center mx-auto items-center h-[580px]`}>
                                 <img src={image} alt="" className="object-cover transition-all duration-500 ease-in-out" />
                             </div>
                         </div>
