@@ -12,9 +12,6 @@ function Footer({ }: Props) {
                         <span className='text-center '>COPYRIGHTS ©AATRIYASHOTS {new Date().getFullYear()}</span>
                     </h5>
                 </div>
-                <div className="w-[200px] mx-auto lg:w-full">
-                    <h1 className='text-[#454543] text-[10px] uppercase tracking-wider text-center lg:text-end'>Back to Top</h1>
-                </div>
             </div>
         </div>
     )

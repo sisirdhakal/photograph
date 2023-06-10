@@ -1,12 +1,10 @@
 import React from 'react'
-import { GridContainer } from '../style'
 
 type Props = {}
 
 const Details = (props: Props) => {
   return (
     <>
-      {/* <GridContainer> */}
       <div className='py-8'>
         <div className='grid md:grid-cols-3'>
           <div className=' md:border-r-2 border-clrgrey8 py-8'>
@@ -25,11 +23,10 @@ const Details = (props: Props) => {
             <p className='text-center tracking-wider text-xs text-[#bb9c8b]'>
               03
             </p>
-            <h1 className='text text-clrgrey3 text-center tracking-wide uppercase'>meet brandi</h1>
+            <h1 className='text text-clrgrey3 text-center tracking-wide uppercase'>meet aatriya</h1>
           </div>
         </div>
       </div>
-      {/* </GridContainer> */}
     </>
   )
 }
